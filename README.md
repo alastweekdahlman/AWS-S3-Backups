@@ -26,7 +26,15 @@ Don't forget the permissions to these to run.
 
 [s3mysqlbackup.sh](https://github.com/alastweekdahlman/AWS-S3-Backups/blob/master/s3mysqlbackup.sh)
 
-```chmod +x shell.sh```
+```
+chmod +x s3mysqlbackup.sh
+chmod +x s3backups.sh
+# Run the scripts
+./s3mysqlbackup.sh
+./s3backups.sh
+
+```
+
 
 
 <h2>Cron</h2>
@@ -41,3 +49,5 @@ Don't forget the permissions to these to run.
     Order allow,deny
     Deny from all
 </Files>```
+
+If this needs anymore clarification please let me know!
