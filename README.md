@@ -9,19 +9,19 @@ For <b>Debian and Ubuntu</b>
 </p>
 
 ```
-Import S3tools signing key:
+#Import S3tools signing key:
 wget -O- -q http://s3tools.org/repo/deb-all/stable/s3tools.key | sudo apt-key add -
 
-Add repo to sources.list: 
+#Add repo to sources.list: 
 sudo wget -O/etc/apt/sources.list.d/s3tools.list http://s3tools.org/repo/deb-all/stable/s3tools.list
 
-Refresh package cache and install the newest s3cmd:
+#Refresh package cache and install the newest s3cmd:
 sudo apt-get update && sudo apt-get install s3cmd
 
 # Setup s3cmd
 s3cmd --configure
     # You’ll need to enter your AWS access key and secret key here, everything is optional and can be ignored :-)
-```
+ ```
 
 For <b>CentOS</b>
 ```
@@ -31,8 +31,8 @@ wget http://s3tools.org/repo/CentOS_5/s3tools.repo
 yum install s3cmd
 # Setup s3cmd
 s3cmd --configure
-    # You’ll need to enter your AWS access key and secret key here, everything is optional and can be ignored :-)
-    ```
+# You’ll need to enter your AWS access key and secret key here, everything is optional and can be ignored :-)
+ ```  
     
 <h2> Scripts </h2>
 <p>These two scripts do all the work for a monthly mysql and full htdocs backup. This works great if you have a wordpress site or small site that doesn't hold volitile information and doesn't require a constant backup.</p>
@@ -48,7 +48,6 @@ chmod +x s3backups.sh
 # Run the scripts
 ./s3mysqlbackup.sh
 ./s3backups.sh
-
 ```
 
 
