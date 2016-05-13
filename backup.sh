@@ -1,9 +1,9 @@
 #!/bin/bash
 # Variables
-bucket=s3://staterabackups/Website/Monthly/
+bucket=s3://yourbucket
 
 # Folder to tar and send
-folder=/opt/bitnami/apps/wordpress/htdocs/
+folder=/location/of/www/or/htdocs
 
   # Define filenames
     filename=$(date +'%Y-%m-%d' +)monthlysitebackup.tar.gz
