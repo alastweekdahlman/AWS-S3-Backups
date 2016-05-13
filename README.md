@@ -31,3 +31,9 @@ sudo apt-get update && sudo apt-get install s3cmd
 0 0 1 * * bash /location/s3mysqlbackup.sh >/dev/null 2>&1
 0 0 1 * * bash /location/s3backup.sh >/dev/null 2>&1
 ```
+<h2>Safety</h2>
+```### Deny public access to shell files
+<Files *.sh>
+    Order allow,deny
+    Deny from all
+</Files>```
