@@ -20,8 +20,8 @@ sudo apt-get update && sudo apt-get install s3cmd
 ```
 <h2> Scripts </h2>
 <p>These two scripts do all the work for a monthly mysql and full htdocs backup. This works great if you have a wordpress site or small site that doesn't hold volitile information and doesn't require a constant backup.</p>
-s3backup.sh
-mysqlbackup.sh
+AWS-S3-Backups/s3backup.sh
+AWS-S3-Backups/s3mysqlbackup
 
 
 <h2>Cron</h2>
