@@ -66,3 +66,9 @@ chmod +x s3backups.sh
 </Files>```
 
 If this needs anymore clarification please let me know!
+
+<h2>Helpful Links</h2>
+[s3cmd command examples](https://linuxconfig.org/getting-started-with-aws-s3cmd-command-by-examples)
+[Repos for s3cmd](http://s3tools.org/repositories)
+[s3cmd info](http://s3tools.org/s3cmd-sync)
+[Tar issues](http://stackoverflow.com/questions/25032498/s3cmd-backup-folder-to-amazon-s3)
