@@ -1,6 +1,6 @@
 # AWS-S3-Backups
 Scripts to help your Linux-AWS instance back up to your S3 buckets, with help from some cron jobs.
-I had to create a solution to help keep monthly backups of our website.  This was created to help admins in their 3-2-1 solution.
+I had to create a solution to help keep monthly backups of our website and help create a new 3-2-1 backup practice.  Hopefully this comes in handy to everyone!
 I took a lot from [this gist by oodavid](https://gist.github.com/oodavid/2206527) and his s3mysql backup solution.
 <h2> Install S3cmd</h2>
 For <b>Debian and Ubuntu</b> 
